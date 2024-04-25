@@ -1,8 +1,8 @@
 import { createServer } from "http";
 import express from "express";
 import { ApolloServer } from "apollo-server-express";
-import { typeDefs } from "./eventTypeDefs.js";
-import { resolvers } from "./eventResolvers.js";
+import { typeDefs } from "./models/eventTypeDefs.js";
+import { resolvers } from "./resolvers/eventResolvers.js";
 
 // Create Express app
 const app = express();
